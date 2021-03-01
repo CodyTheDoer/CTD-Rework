@@ -59,11 +59,6 @@ function externalDemoLoader(){
     })
 }
 
-window.onload = () => {
-    externalDemoLoader();
-}
-
-
 
 
 
