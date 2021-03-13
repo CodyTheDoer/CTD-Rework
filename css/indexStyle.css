@@ -3,6 +3,12 @@ body{
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
     height: 100vh;
+    text-align: center;
+}
+
+img{
+    border-radius: 20px;
+    margin-right: 25px;
 }
 
 a{
@@ -12,20 +18,8 @@ a{
     cursor: pointer;
 }
 
-button{
-    width: 49%;
-    min-width: 210px;
-    height: 2.5vh;
-    margin-bottom: 3vh
-}
-
 input[type=text]{
     width: 23vw;
-}
-
-iframe{
-    width: 100%;
-    height: 96vh;
 }
 
 form{
@@ -39,10 +33,12 @@ form{
     width: 40%
 }
 
+
+
 .navPanel{
     background: white;
     text-align: center;
-    width: 100%;
+    width: 100%!important;
     padding-top: 10px;
     margin-bottom: 30px;
 }
@@ -58,4 +54,69 @@ form{
     font-size: 125%;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+
+
+.servicesHome{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex-box;
+}
+
+.servicesFloat{
+    background-color: #ffffff;
+    border-radius: 20px;
+    filter:drop-shadow(0 0 0.05rem #000000);
+    margin-bottom: 50px;
+    padding: 25px;
+}
+
+.servicesFloatHeader{
+    font-size: 400%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+
+.demosHome{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex-box;
+}
+
+.demoLinkButton{
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    width: 20vw;
+    height: 8vh;
+}
+
+.pleasantClock{
+    display: flex; 
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    filter:drop-shadow(0 0 0.05rem #000000);
+    margin-bottom: 50px;
+}
+
+.retroCalculator{
+    display: flex; 
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    filter:drop-shadow(0 0 0.05rem #000000);
+    margin-bottom: 50px;
+}
+
+.sketchPad{
+    display: flex; 
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    filter:drop-shadow(0 0 0.05rem #000000);
+    margin-bottom: 50px;
 }
