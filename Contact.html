@@ -21,38 +21,36 @@
             Please fill out the form below and I personally will follow up with you via your preferred method of contact as soon as I am able!
             <br>
             <form class="contactForm">
-
-                <label for="name">Your Name (required)</label>
-                <input type="text" id="name" name="name">
+                <div>
+                    <label for="name">Your Name (required)</label>
+                    <input type="text" id="name" name="name" style="float:right;">
+                </div>
                 <br>
-                <label for="email">Your Email (required)</label>
-                <input type="text" id="email" name="email">
+                <div>
+                    <label for="email">Your Email (required)</label>
+                    <input type="text" id="email" name="email" style="float:right;">
+                </div>
                 <br>
                 <br>
-                <label for="request">Request Type (required)</label>
+                <div style="text-align: center;">
+                    <label for="request">Request Type (required)</label>
+                </div>
                 <br>
-                <input type="checkbox" name="request1" value="signUp">
-                <label for="request1"> Just Signing Up</label>
+                <div>
+                    <input type="checkbox" name="request1" value="Artistic Services">
+                    <label for="request1"> Artistic Services</label>    
+                    <br>
+                    <input type="checkbox" name="request2" value="Industrial Design, Technology Consultant, and Project Management Services">
+                    <label for="request2"> Industrial Design, Technology Consultant, and Project Management Services</label>
+                    <br>
+                    <input type="checkbox" name="request3" value="Other">
+                    <label for="request3"> Other</label>
+                </div>
                 <br>
-                <input type="checkbox" name="request2" value="Artistic">
-                <label for="request2"> Artistic</label>
-                <br>
-                <input type="checkbox" name="request3" value="Industrial Design">
-                <label for="request3"> Industrial Design</label>
-                <br>
-                <input type="checkbox" name="request4" value="Information-Technology">
-                <label for="request4"> Information-Technology</label>
-                <br>
-                <input type="checkbox" name="request5" value="Web Development and Design">
-                <label for="request5"> Web Development and Design</label>
-                <br>
-                <input type="checkbox" name="request6" value="Resume">
-                <label for="request6"> Resume</label>
-                <br>
-                <input type="checkbox" name="request7" value="Other">
-                <label for="request7"> Other</label>
-                <br>
-                <input type="submit" value="Send">
+                <div>
+                    <textarea name="moreInfo" style="width: 100%;" placeholder="Enter more information about your project request here"></textarea>
+                    <input type="submit" value="Submit Contact Form">
+                </div>
                 <br>
             </form>       
         </div>           
