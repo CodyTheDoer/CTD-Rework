@@ -44,6 +44,19 @@ input[type=text]{
 
 
 
+
+.mailingList{
+    margin: auto;
+}
+
+.mailingListForm{
+    background-color: #ffffff;
+    width:fit-content;
+}
+
+
+
+
 form{
     text-align: left;
     margin: auto;

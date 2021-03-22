@@ -14,6 +14,31 @@ function navLoad(){
     `
 }
 
+function mailingList(){
+    let mailingList = document.getElementsByClassName("mailingList");
+    mailingList[0].innerHTML = `
+    <div class="navHeader">Join The Mailing List</div>
+    <div class="navBar">
+        <form class="mailingListForm">
+            <div>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <br>
+            <div>
+                <label for="name">Your Email</label>
+                <input type="text" id="Email" name="Email">
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Join the Mailing List">
+            </div>
+        </form>
+    </div>
+    </br>
+    `
+}
+
 window.onload = () => {
     navLoad();
 }
